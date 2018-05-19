@@ -10,6 +10,7 @@ Python 3 should be already installed.
 $ sudo apt-get install virtualenv
 $ cd path/to/current/dir
 $ virtualenv .env
+$ source .env/bin/activate
 $ pip install -r requirements.txt 
 ```
 
