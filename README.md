@@ -28,7 +28,7 @@ $ python3 mini_readability.py -u https://lenta.ru/news/2018/05/17/zubkov/
 
 ```
 
-Help to module:
+Help for module:
 ```
 $ python3 mini_readability.py -h
 usage: mini_readability.py [-h] [-p PATH] [-out OUTPUT] [-u URL]
