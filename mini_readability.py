@@ -94,7 +94,7 @@ class MiniReadability():
                 yield textwrap.fill(url, width=79)
 
     def write_file(self):
-        full_file_path = os.path.join(self.output, self.get_path_to_file)
+        full_file_path = os.path.normpath(self.output + self.get_path_to_file)
         path = os.path.dirname(full_file_path)
         if not os.path.exists(path):
             os.makedirs(path, exist_ok=True)
