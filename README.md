@@ -10,7 +10,6 @@ Python 3 should be already installed.
 $ sudo apt-get install virtualenv
 $ cd path/to/current/dir
 $ virtualenv .env
-$ source .env/bin/activate
 $ pip install -r requirements.txt 
 ```
 
@@ -28,8 +27,12 @@ $ source .env/bin/activate
 $ python3 mini_readability.py -u https://lenta.ru/news/2018/05/17/zubkov/
 
 ```
+if the module is used in the Windows OS, use the `-out .\news` to create a folder in the project directory.
+```
+python3 mini_readability.py -u https://lenta.ru/news/2018/05/17/zubkov/ -out .\news
+```
 
-Help for module:
+Help to module:
 ```
 $ python3 mini_readability.py -h
 usage: mini_readability.py [-h] [-p PATH] [-out OUTPUT] [-u URL]
