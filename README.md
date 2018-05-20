@@ -27,10 +27,6 @@ $ source .env/bin/activate
 $ python3 mini_readability.py -u https://lenta.ru/news/2018/05/17/zubkov/
 
 ```
-if the module is used in the Windows OS, use the `-out .\news` to create a folder in the project directory.
-```
-python3 mini_readability.py -u https://lenta.ru/news/2018/05/17/zubkov/ -out .\news
-```
 
 Help to module:
 ```
